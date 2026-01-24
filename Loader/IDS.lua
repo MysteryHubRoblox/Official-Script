@@ -1,53 +1,21 @@
-local IDS = {
-    [3623096087]      = "https://raw.githubusercontent.com/MysteryHubRoblox/Official-Script/refs/heads/main/Main/Muscle%20Legends", -- Muscle Legends
-    --[537413528]       = "", -- BABFT
-    --[85896571713843]  = "", -- Bubble gum simulator infinity
-    --[78041891124723]  = "", -- Blood Debt
-    --[70876832253163]  = "", -- Dead Rails bond farm
-    --[87700573492940]  = "", -- Untilted drill game
-    --[126884695634066] = "", -- Grow a Garden
-    --[1537690962]      = "", -- BSS 
-    --[142823291]       = "", -- MM2
-    --[335132309]       = "", -- MM2
-    --[16732694052]     = "", -- Fisch
-    --[131716211654599] = "", -- Fisch sea 1
-    --[126244816328678] = "", -- DIG
-    --[18687417158]     = "", -- Forsaken
-    --[79546208627805]  = "", -- 99 Days In Forest | Lobby
-    --[126509999114328] = "", -- 99 Days In Forest | Game
-    --[89343390950953]  = "", -- My Singing Brainrot
-    --[110931811137535] = "", -- Catch And Feed Brainrot
-    --[111989938562194] = "", -- Brainrot Evolution
-    --[11276071411]     = "", -- NpcOrDie
-    --[129827112113663] = "", -- Prospecting
-    --[93978595733734]  = "", -- Violence Distruct
-    --[185655149]       = "", -- Bloxburg
-    --[119048529960596] = "", -- Restaurant Tycoon 3
-    --[99889627739043]  = "", -- Restaurant Tycoon 3
-    --[127742093697776] = "", -- Plant Vs Brainrots
-    --[121864768012064] = "", -- Fish It 
-    --[138837502355157] = "", -- Grace | Lobby
-    --[110333320616502] = "", -- Grace | Game
-    --[105555311806207] = "", -- Build A Zoo
-    --[5591597781]      = "", -- TDS | Game
-    --[3260590327]      = "", -- TDS | Lobby
-    --[76558904092080]  = "", -- The Forge 1
-    --[129009554587176] = "", -- The Forge 2
-    --[131884594917121] = "", -- The Forge 3
-    --[110459623978232] = "", -- The Forge 1
-    --[110052129429616] = "", -- The Forge 3
-    --[136407404714539] = "", -- FindTheBrainrots
-    --[101949297449238] = "", -- Build an Island
-    --[18901165922]     = "", -- Pets Go | No key
-    --[132073733865215] = "", -- Dep Simulator 2
-    --[77483797026305]  = "", -- Sword Fights on the Heights IV: Reforged
-    --[99567941238278]  = "", -- Ink Game Lobby
-    --[125009265613167] = "", -- Ink Game Game
-    --[109983668079237] = "", -- Steal A Brainrot
-    --[96342491571673]  = "", -- Steal A Brainrot Tutorial
-    --[138878871969281] = "", -- SkinWalkers lobby/game
-    --[94725155944518]  = "", -- SkinWalkers lobby/game
-    --[109652885385286] = "", -- Dig The backyard
+local Scripts = {
+    [3623096087] = function()
+        -- Muscle Legends
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MysteryHubRoblox/Official-Script/refs/heads/main/Main/Muscle%20Legends"))()
+    end,
+
+    [142823291] = function()
+        -- Brookhaven
+        loadstring(game:HttpGet("URL"))()
+    end,
+
+    [335132309] = function()
+        -- Legends Of Speed
+        loadstring(game:HttpGet("URL"))()
+    end,
 }
 
-return IDS
+local run = Scripts[game.PlaceId]
+if run then
+    run()
+end
