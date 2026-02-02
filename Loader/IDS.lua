@@ -4,9 +4,9 @@ local Scripts = {
         loadstring(game:HttpGet("https://raw.githubusercontent.com/MysteryHubRoblox/Official-Script/refs/heads/main/Main/Muscle%20Legends"))()
     end,
 
-    [142823291] = function()
-        -- Brookhaven
-        loadstring(game:HttpGet("URL"))()
+    [75992362647444] = function()
+        -- Tap Simulator
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MysteryHubRoblox/Official-Script/refs/heads/main/Main/Tap%20Simulator"))()
     end,
 
     [335132309] = function()
