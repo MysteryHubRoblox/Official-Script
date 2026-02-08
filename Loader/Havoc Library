@@ -1,1 +1,21 @@
+local Scripts = {
+    [3623096087] = function()
+        -- Muscle Legends
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MysteryHubRoblox/Start-Script/refs/heads/main/Havoc%20Library/Muscle%20Legends"))()
+    end,
 
+    [75992362647444] = function()
+        -- Tap Simulator
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/MysteryHubRoblox/Start-Script/refs/heads/main/Havoc%20Library/Tap%20Simulator"))()
+    end,
+
+    [335132309] = function()
+        -- Legends Of Speed
+        loadstring(game:HttpGet("URL"))()
+    end,
+}
+
+local run = Scripts[game.PlaceId]
+if run then
+    run()
+end
